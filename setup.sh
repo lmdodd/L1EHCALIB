@@ -1,1 +1,1 @@
-mv Single*_cfi.py ../Configuration/Generator/python/
+mv MoveToConfigurationFiles/* Configuration/Generator/python/.
