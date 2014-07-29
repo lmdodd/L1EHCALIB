@@ -2,7 +2,7 @@
 # using: 
 # Revision: 1.20 
 # Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: SinglePi0Pt40_cfi.py --customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1,Configuration/DataProcessing/Utils.addMonitoring --conditions POSTLS162_V2::All --step GEN,SIM,DIGI,L1,DIGI2RAW,RAW2DIGI,L1Reco,RECO --eventcontent=FEVTSIM --magField 38T_PostLS1 --geometry Extended2015 -n $nEventsPerJob --no_exec
+# with command line options: SinglePiPlusPt25_cfi.py --customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1,Configuration/DataProcessing/Utils.addMonitoring --conditions POSTLS162_V2::All --step GEN,SIM,DIGI,L1,DIGI2RAW,RAW2DIGI,L1Reco,RECO --eventcontent=FEVTSIM --magField 38T_PostLS1 --geometry Extended2015 -n $nEventsPerJob --no_exec
 import FWCore.ParameterSet.Config as cms
 
 process = cms.Process('RECO')
@@ -39,6 +39,7 @@ process.source = cms.Source("EmptySource")
 process.options = cms.untracked.PSet(
 
 )
+
 #Told to add by sridhara
 process.RandomNumberGeneratorService.generator = cms.PSet(
        initialSeed = cms.untracked.uint32($randomNumber),
@@ -49,7 +50,7 @@ process.RandomNumberGeneratorService.generator = cms.PSet(
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
     version = cms.untracked.string('$Revision: 1.20 $'),
-    annotation = cms.untracked.string('SinglePi0Pt40_cfi.py nevts: $nEventsPerJob'),
+    annotation = cms.untracked.string('SinglePiPlusPt25_cfi.py nevts:$nEventsPerJob'),
     name = cms.untracked.string('Applications')
 )
 
@@ -78,16 +79,16 @@ process.GlobalTag = GlobalTag(process.GlobalTag, 'POSTLS162_V2::All', '')
 
 process.generator = cms.EDProducer("FlatRandomPtGunProducer",
     PGunParameters = cms.PSet(
-        MaxPt = cms.double(40.01),
-        MinPt = cms.double(39.99),
-        PartID = cms.vint32(111),
+        MaxPt = cms.double(25.01),
+        MinPt = cms.double(24.99),
+        PartID = cms.vint32(211),
         MaxEta = cms.double(3),
         MaxPhi = cms.double(3.14159265359),
         MinEta = cms.double(-3),
         MinPhi = cms.double(-3.14159265359)
     ),
     Verbosity = cms.untracked.int32(0),
-    psethack = cms.string('single pi 0 pt 40'),
+    psethack = cms.string('single pi pt 25'),
     AddAntiParticle = cms.bool(False),
     firstRun = cms.untracked.uint32(1)
 )

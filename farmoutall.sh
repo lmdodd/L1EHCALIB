@@ -1,0 +1,11 @@
+farmoutRandomSeedJobs SinglePi0E1 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E1_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E2 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E2_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E5 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E5_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E10 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E10_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E15 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E15_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E20 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E20_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E35 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E35_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E50 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E50_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E75 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E75_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+farmoutRandomSeedJobs SinglePi0E100 1000000 10000 /afs/hep.wisc.edu/cms/laura/RelValPi/CMSSW_6_2_5 SinglePi0E100_cfi_py_GEN_SIM_DIGI_L1_DIGI2RAW_RAW2DIGI_L1Reco_RECO.py
+
